@@ -3,6 +3,7 @@
 /* Optimized for Chrome Canary Channel v34
 /* https://github.com/mauricecruz/zero-base-themes
 /******************************************************************************/
+/* jshint important:false */
 
 .cm-execution-line {
 	background-color: rgb(100, 60, 0) !important;
@@ -10,7 +11,12 @@
 }
 
 .cm-highlight {
-	background-color: rgba(143, 0, 0, 0.5) !important;
+  -webkit-animation: "fadeout" 2s 0s;
+}
+
+@-webkit-keyframes fadeout {
+    from {background-color: rgb(143, 0, 0); }
+    to { background-color: #2828282; }
 }
 
 .CodeMirror-gutters {
