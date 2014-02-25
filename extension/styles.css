@@ -1,0 +1,225 @@
+/*****************************************************************************/
+/* Zero-Dark-Matrix
+/* Optimized for Chrome Canary Channel v34
+/* https://github.com/mauricecruz/zero-base-themes
+/******************************************************************************/
+/* jshint important:false */
+
+.cm-execution-line {
+	background-color: rgb(100, 60, 0) !important;
+	outline: 1px solid rgb(200, 120, 0) !important;
+}
+
+.cm-highlight {
+  -webkit-animation: "fadeout" 2s 0s;
+}
+
+@-webkit-keyframes fadeout {
+    from {background-color: rgb(143, 0, 0); }
+    to { background-color: #2828282; }
+}
+
+.CodeMirror-gutters {
+
+}
+
+.CodeMirror-linenumbers {
+
+}
+
+.CodeMirror-code,
+.CodeMirror-lines {
+	font-family: "Source Code Pro" !important;
+	background: #282828 !important;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+	border-left-color: #fff !important;
+}
+
+.CodeMirror-selectedtext,
+.CodeMirror .CodeMirror-selected {
+	background: rgba(61, 68, 86, 0.878) !important;
+}
+
+.CodeMirror .webkit-html-error-message {
+	background-color: rgb(143, 0, 0) !important;
+	border: 2px solid rgb(143, 0, 0) !important;
+	color: #fff !important;
+}
+
+.CodeMirror-matchingbracket {
+	border-bottom: 1px solid #E6E1DC;
+	color: #E6E1DC !important;
+}
+
+.cm-js-atom {
+  color: #6D9CBE !important;
+}
+.cm-js-attribute {
+  color: #4e87bf !important;
+}
+.cm-js-builtin {
+  color: #8da6ce !important;
+}
+.cm-js-comment {
+  color: #BC9458 !important;
+  font-style: italic;
+}
+.cm-js-operator {
+	color: #f5d;
+}
+.cm-js-def {
+  color: #FFC66D !important;
+}
+.cm-js-error {
+  background: #9D1E15 !important;
+  color: #f8f8f8 !important;
+}
+.cm-js-header {
+  color: #ff6400 !important;
+}
+.cm-js-hr {
+  color: #aeaeae !important;
+}
+.cm-js-keyword {
+  color: #CC7833 !important;
+}
+.cm-js-link {
+  color: #8da6ce !important;
+}
+.cm-js-meta {
+  color: #d8fa3c !important;
+}
+.cm-js-number {
+  color: #A5C261 !important;
+}
+.cm-js-operator {
+  color: #cdb943 !important;
+}
+.cm-js-property {
+  color: #A5C261 !important;
+}
+.cm-js-string {
+  color: #A5C261 !important;
+}
+.cm-js-string-2 {
+  color: #A5C261 !important;
+}
+.cm-js-tag {
+  color: #49a6d2 !important;
+}
+.cm-js-variable {
+  color: #E6E1DC !important;
+}
+.cm-js-variable-2 {
+  color: #E6E1DC !important;
+}
+.source-frame-eval-expression {
+  background-color: rgba(137, 245, 162, 0.4) !important;
+  border-color: #89F5A2 !important;
+}
+.cm-atom {
+  color: #89f5a2 !important;
+}
+.cm-comment {
+  color: #676767 !important;
+  font-style: italic;
+}
+.cm-variable {
+  color: #D0D0FF !important;
+}
+.cm-string {
+  color: #f07b3c !important;
+}
+.cm-keyword {
+  color: #8b6ccf !important;
+  font-style: italic;
+}
+.cm-number {
+  color: #A5C261 !important;
+}
+.cm-operator {
+  color: #cdb943 !important;
+}
+.cm-error {
+  background: #9D1E15 !important;
+  color: #f8f8f8 !important;
+}
+.cm-s-default .cm-property {
+  color: #cccccc !important;
+}
+/*--CSS--*/
+.cm-css-atom {
+  color: #cccccc !important;
+}
+.cm-css-builtin {
+  color: #ff9635 !important;
+}
+.cm-css-def {
+  color: #ff9635 !important;
+}
+.cm-css-comment {
+  color: #676767 !important;
+  font-style: italic;
+}
+.cm-css-meta {
+  color: #6aedff !important;
+}
+.cm-css-number {
+  color: #A5C261 !important;
+}
+.cm-css-operator {
+  color: #cccccc !important;
+}
+.cm-css-property {
+  color: #6aedff !important;
+}
+.cm-css-qualifier {
+  color: #ff9635 !important;
+}
+.cm-css-string {
+  color: #e3b959 !important;
+}
+.cm-css-string-2 {
+  color: #cccccc !important;
+}
+.cm-css-tag {
+  color: #FFC66D !important;
+}
+.cm-css-variable {
+  color: #D0D0FF !important;
+}
+.cm-css-variable-2 {
+  color: #D0D0FF !important;
+}
+/*--HTML--*/
+.cm-xml-comment {
+  color: #7c7c7c !important;
+  font-style: italic !important;
+}
+.cm-xml-error {
+  color: #bf4c4c !important;
+}
+.cm-xml-string {
+  color: #f0874f !important;
+}
+.cm-xml-tag {
+  color: #49a6d2 !important;
+}
+.cm-xml-attribute {
+  color: #88aed5 !important;
+}
+.cm-xml-link {
+  color: #e3b959 !important;
+}
+.shadow-root .webkit-html-fragment.shadow-root {
+  color: #ddbb00 !important;
+}
+.outline-disclosure ol li .highlight {
+  color: #ddbb00 !important;
+}
+/*--GLOBAL--*/
+.CodeMirror-code {
+  color: #E6E1DC;
+}

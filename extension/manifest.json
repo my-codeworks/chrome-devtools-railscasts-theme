@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+  "name": "Railscast DevTools Theme",
+  "version": "0.1",
+  "description": "DevTools theme based on Ryan Bate's railscast theme for Textmate.",
+  "devtools_page": "devtools.html",
+  "icons": {
+  	"32": "icon_32.png",
+  	"48": "icon_48.png",
+  	"128": "icon_128.png"
+  },
+  "author": "my codeworks",
+  "homepage_url": "http://github.com/my-codeworks/chrome-devtools-railscasts-theme"
+}
